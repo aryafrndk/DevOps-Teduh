@@ -16,4 +16,5 @@ public interface IDAOData {
     public void insert(TambahData b);
     public void update(TambahData b);
     public void delete(String nim);
+    public List<TambahData> search(String keyword);
 }
